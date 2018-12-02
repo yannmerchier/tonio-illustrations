@@ -92,7 +92,9 @@ header .col-md-4{
 
 .portrait{
     max-height: 100%;
+    color: transparent;
 }
+
 
 .portrait img{
     max-width: 100%;
@@ -105,6 +107,22 @@ p{
 p a{
     color: black;
 }
+
+.portrait img:hover{
+    filter: brightness(20%);
+}
+
+.portrait:hover{
+    color: white;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 p a:hover{
     text-decoration: none;
