@@ -11,7 +11,7 @@ header {
 
 header a{
     color: black;
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 header a:hover{
@@ -90,6 +90,10 @@ header .col-md-4{
     padding-bottom: 3em;
 }
 
+.mosaic a{
+    color: white;
+}
+
 .portrait{
     max-height: 100%;
     color: transparent;
@@ -108,12 +112,20 @@ p a{
     color: black;
 }
 
+.portrait img::after{
+    content: "Veolo";
+}
+
 .portrait img:hover{
     filter: brightness(20%);
 }
 
 .portrait:hover{
     color: white;
+}
+
+.title:hover ~ .portait img {
+    filter: brightness(20%);
 }
 
 .title {
@@ -128,4 +140,23 @@ p a:hover{
     text-decoration: none;
     font-weight: bold;
     color:black;
+}
+
+footer {
+    text-align:center;
+    bottom:0;
+    width:100%;
+    display:inline-block;
+    vertical-align:top;
+}
+
+footer a{
+    display: inline-block;
+    text-align: center;
+}
+
+footer img{
+    max-width: 4em;
+    padding: 1em;
+    opacity: 0.6;
 }
