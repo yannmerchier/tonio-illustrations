@@ -26,8 +26,8 @@ header h1{
 
 header li{
     display: inline-block;
-    padding-right: 2em;
-    padding-left: 2em;
+    padding-right: 1em;
+    padding-left: 1em;
     float: right;
 }
 
