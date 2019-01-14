@@ -1,14 +1,9 @@
-body {
+ body {
     font-family: 'Amatic SC', cursive;
     color:white;
     background-color: black;
 }
 
-
-header {
-    padding: 1em 0;
-    margin-bottom: 2em;
-}
 
 header a{
     color: white;
@@ -103,7 +98,8 @@ header .col-md-4{
     left: 0;
     align-items: center;
     overflow: hidden;
-    background-color: white;
+    background-color: black;
+    text-align:center;
 }
 
 .active-slide {
@@ -111,14 +107,12 @@ header .col-md-4{
 }
 
 .slide img{
-    width:100%;
-    transform: translateY(-15%);
+    height:100%;
 }
 
 .slider-nav {
     text-align: center;
-    margin-top: 35px;
-    margin-bottom: 65px;
+    margin-top: 1em;
     width:1140px;
 }
 
@@ -154,10 +148,12 @@ header .col-md-4{
   display: inline;
   font-size: 30px;
   margin-right: 5px;
+  vertical-align: middle;
 }
 
 .slider-dots li.active-dot {
   color: white;
+  font-size:40px;
 }
 
 p{
