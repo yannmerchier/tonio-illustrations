@@ -112,20 +112,18 @@ p a{
     color: black;
 }
 
-.portrait img::after{
-    content: "Veolo";
+.hoverBox:hover{
+    filter:brightness(20%);
+    color:white;
 }
 
-.portrait img:hover{
-    filter: brightness(20%);
+.title{
+    pointer-events: none;
+    color:transparent;
 }
 
-.portrait:hover{
+.hoverBox:hover + .title{
     color: white;
-}
-
-.title:hover ~ .portait img {
-    filter: brightness(20%);
 }
 
 .title {
