@@ -3469,7 +3469,7 @@
 			padding: 0 0.75em;
 			color: inherit;
 			text-decoration: none;
-			color: #FFF;
+			color: black;
 		}
 
 			#header > a:hover {
@@ -3886,6 +3886,7 @@
 
 	#footer {
 		padding: 6em 2em 4em 2em;
+		width: 100%
 	}
 
 		#footer > .inner {

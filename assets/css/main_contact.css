@@ -24,8 +24,10 @@
 		display: block;
 	}
 
+
 	body {
 		line-height: 1;
+		border: 1em solid #dc45ff;
 	}
 
 	ol, ul {
@@ -1580,7 +1582,7 @@
 	}
 
 	body {
-		background: #fff;
+		background: white;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1594,10 +1596,24 @@
 			transition: none !important;
 		}
 
+	img {
+		max-width: 30em;
+	}
+
+	.custom {
+		display: inline-block;
+		text-align: center;
+		width:100%;
+	}
+
+	.custom h1 {
+		color:#dc45FF;
+	}
+
 /* Type */
 
 	body {
-		background-color: #fff;
+		background-color: white;
 		color: #999999;
 	}
 
@@ -2033,7 +2049,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #fafafa;
+			background-color: white;
 			color: #000 !important;
 		}
 
@@ -2414,7 +2430,7 @@
 
 	input[type="checkbox"]:checked + label:before,
 	input[type="radio"]:checked + label:before {
-		background-color: #fafafa;
+		background-color: white;
 		border-color: #fafafa;
 		color: #000;
 	}
@@ -2883,7 +2899,7 @@
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0 4em 0;
+		padding: 2em 0 4em 0;
 		position: relative;
 	}
 
@@ -2907,7 +2923,7 @@
 			}
 
 		.wrapper.style1 {
-			background-color: #fafafa;
+			background-color: white;
 			color: #999999;
 		}
 
@@ -2927,7 +2943,7 @@
 				color: #000;
 			}
 
-			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6 {
+			.wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6 {
 				color: #000;
 			}
 
@@ -3208,7 +3224,7 @@
 				.wrapper.style2 input[type="button"].special,
 				.wrapper.style2 button.special,
 				.wrapper.style2 .button.special {
-					background-color: #fafafa;
+					background-color: white;
 					color: #000 !important;
 				}
 
@@ -3267,7 +3283,7 @@
 
 			.wrapper.style2 input[type="checkbox"]:checked + label:before,
 			.wrapper.style2 input[type="radio"]:checked + label:before {
-				background-color: #fafafa;
+				background-color: white;
 				border-color: #fafafa;
 				color: #000;
 			}
@@ -3361,7 +3377,7 @@
 /* Header */
 
 	body.subpage {
-		padding-top: 3.125em;
+		padding-top: 1em;
 	}
 
 	@-moz-keyframes reveal-header {
