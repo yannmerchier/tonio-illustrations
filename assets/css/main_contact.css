@@ -60,6 +60,7 @@
 		margin-top: -1em;
 		position:fixed;
 		z-index: 1;
+		top:1em;
 	}
 
 	.frame-bottom {
