@@ -2544,6 +2544,10 @@
 			height: 100%;
 		}
 
+	iframe {
+		padding: 2em;
+	}
+
 /* List */
 
 	ol {
@@ -3416,7 +3420,7 @@
 		background: rgba(0, 0, 0, 0.75);
 		color: #aed6f1;
 		cursor: default;
-		height: 3.25em;
+		height: 7em;
 		left: 0;
 		line-height: 3.25em;
 		position: fixed;
@@ -3458,6 +3462,7 @@
 
 			#header > .logo img {
 				width: 7em;
+				margin-top: -1.5em;
 			}
 
 		#header > a {
@@ -3886,6 +3891,10 @@
 
 	#footer {
 		padding: 6em 2em 4em 2em;
+	}
+
+	#footer img {
+		max-height: 8em;
 	}
 
 		#footer > .inner {
