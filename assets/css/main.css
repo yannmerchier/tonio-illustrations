@@ -3768,7 +3768,7 @@
 
 		#banner p {
 			color: rgba(255, 255, 255, 0.85);
-			font-size: 1.75em;
+			font-size: 1em;
 		}
 
 	@-moz-keyframes more {
@@ -3874,7 +3874,7 @@
 		@media screen and (max-width: 480px) {
 
 			#banner p {
-				font-size: 1em;
+				font-size: 0.5em;
 			}
 
 		}
